@@ -1,0 +1,6 @@
+use_frameworks!
+target 'madgwick-fusion-swift_Tests' do
+  pod 'madgwick-fusion-swift', :path => '../'
+  
+  
+end
