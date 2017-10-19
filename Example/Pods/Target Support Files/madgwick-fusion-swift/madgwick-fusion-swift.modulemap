@@ -1,0 +1,6 @@
+framework module madgwick_fusion_swift {
+  umbrella header "madgwick-fusion-swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

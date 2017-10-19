@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AC0D18A8D9091BC45D0863B6D13A9D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		24AF32384E3C8B14B9D02E688BC5D66C /* madgwick-fusion-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FD53A4A61D8379836F060E1E845997 /* madgwick-fusion-swift-dummy.m */; };
+		31B124FB280E27BD3D14C64CE3545434 /* madgwick-fusion-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD6D504A70513919C93112F2FF2CD325 /* madgwick-fusion-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48E234D590FC9843CAE816B131E79ED9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CA2D74F7A2257F2F03C55F8BEB5B1C3A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937BE341D480B3B116DCFF46A9E1278 /* ReplaceMe.swift */; };
+		E9363732AB89AB9A250B3A01727DEE37 /* Pods-madgwick-fusion-swift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF3E0BFB0A21308868100493F71665E8 /* Pods-madgwick-fusion-swift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2CEB5E76FA2E375BAB120E3FC4887A5 /* Pods-madgwick-fusion-swift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C13ED89E572CEB3882CAE8367DE54FB /* Pods-madgwick-fusion-swift_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE253ECD5ECB7DBF81F2F7FF0B6C7FDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7490D3211A3A5077B1AA03024A840AD6;
+			remoteInfo = "madgwick-fusion-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CEABC5144FEFA228CF6B458A16FD8BC /* madgwick-fusion-swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "madgwick-fusion-swift-prefix.pch"; sourceTree = "<group>"; };
+		0D3E1F6E696D62FC5DF3423A1E83E946 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D6BA6C6CFAE92963A19BE5D02683877 /* Pods-madgwick-fusion-swift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-madgwick-fusion-swift_Tests.modulemap"; sourceTree = "<group>"; };
+		383814FD9C0DC9FE310A70C69B721BE3 /* madgwick_fusion_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = madgwick_fusion_swift.framework; path = "madgwick-fusion-swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B83B51579572C75C17DA299F12BC1B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D185324E4B73FC197EF60A876D30B3 /* Pods-madgwick-fusion-swift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-madgwick-fusion-swift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C13ED89E572CEB3882CAE8367DE54FB /* Pods-madgwick-fusion-swift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-madgwick-fusion-swift_Tests-dummy.m"; sourceTree = "<group>"; };
+		5E4F6955DEECFB53E5F266E954EB091F /* Pods-madgwick-fusion-swift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-madgwick-fusion-swift_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76BE5CEC5DDE6BC08010FAF91A0D93CA /* Pods-madgwick-fusion-swift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-madgwick-fusion-swift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7937BE341D480B3B116DCFF46A9E1278 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = "madgwick-fusion-swift/Classes/ReplaceMe.swift"; sourceTree = "<group>"; };
+		8B980E393FDC2F2372C720CACC7BDE55 /* Pods-madgwick-fusion-swift_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-madgwick-fusion-swift_Tests-resources.sh"; sourceTree = "<group>"; };
+		90FD53A4A61D8379836F060E1E845997 /* madgwick-fusion-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "madgwick-fusion-swift-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC6AFE6641275D3F9F14D24E6F01AC98 /* Pods-madgwick-fusion-swift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-madgwick-fusion-swift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1997355753A007344244F7BF8D88AA7 /* madgwick-fusion-swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "madgwick-fusion-swift.xcconfig"; sourceTree = "<group>"; };
+		C15923788E1CAB3F87491924A43DA2ED /* madgwick-fusion-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "madgwick-fusion-swift.modulemap"; sourceTree = "<group>"; };
+		CD6D504A70513919C93112F2FF2CD325 /* madgwick-fusion-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "madgwick-fusion-swift-umbrella.h"; sourceTree = "<group>"; };
+		CF3E0BFB0A21308868100493F71665E8 /* Pods-madgwick-fusion-swift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-madgwick-fusion-swift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D6026FBB9782A9CE5CEEAE07804F8F1A /* Pods-madgwick-fusion-swift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-madgwick-fusion-swift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F20C2C487B27E9C6631E29B483DFA21A /* Pods_madgwick_fusion_swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_madgwick_fusion_swift_Tests.framework; path = "Pods-madgwick-fusion-swift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7640B123E353CD25AEBC869B08074782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC0D18A8D9091BC45D0863B6D13A9D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E216272229FE7057BC6D3E16F717BF1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E234D590FC9843CAE816B131E79ED9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185D60D875DBAE91396D11994BA012E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				383814FD9C0DC9FE310A70C69B721BE3 /* madgwick_fusion_swift.framework */,
+				F20C2C487B27E9C6631E29B483DFA21A /* Pods_madgwick_fusion_swift_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				EF8C84D7ED081B71AE80FE84A2515E02 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				185D60D875DBAE91396D11994BA012E6 /* Products */,
+				CC1C2277F05DA44E30321291CF66D515 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C049B393737AE47A28DA4C94C40733CA /* Pods-madgwick-fusion-swift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0D3E1F6E696D62FC5DF3423A1E83E946 /* Info.plist */,
+				1D6BA6C6CFAE92963A19BE5D02683877 /* Pods-madgwick-fusion-swift_Tests.modulemap */,
+				76BE5CEC5DDE6BC08010FAF91A0D93CA /* Pods-madgwick-fusion-swift_Tests-acknowledgements.markdown */,
+				41D185324E4B73FC197EF60A876D30B3 /* Pods-madgwick-fusion-swift_Tests-acknowledgements.plist */,
+				4C13ED89E572CEB3882CAE8367DE54FB /* Pods-madgwick-fusion-swift_Tests-dummy.m */,
+				5E4F6955DEECFB53E5F266E954EB091F /* Pods-madgwick-fusion-swift_Tests-frameworks.sh */,
+				8B980E393FDC2F2372C720CACC7BDE55 /* Pods-madgwick-fusion-swift_Tests-resources.sh */,
+				CF3E0BFB0A21308868100493F71665E8 /* Pods-madgwick-fusion-swift_Tests-umbrella.h */,
+				AC6AFE6641275D3F9F14D24E6F01AC98 /* Pods-madgwick-fusion-swift_Tests.debug.xcconfig */,
+				D6026FBB9782A9CE5CEEAE07804F8F1A /* Pods-madgwick-fusion-swift_Tests.release.xcconfig */,
+			);
+			name = "Pods-madgwick-fusion-swift_Tests";
+			path = "Target Support Files/Pods-madgwick-fusion-swift_Tests";
+			sourceTree = "<group>";
+		};
+		C46651A04C3C61367B0DF37BD16332EF /* madgwick-fusion-swift */ = {
+			isa = PBXGroup;
+			children = (
+				7937BE341D480B3B116DCFF46A9E1278 /* ReplaceMe.swift */,
+				C6FE7861F4F619B1A7DA8DC288569774 /* Support Files */,
+			);
+			name = "madgwick-fusion-swift";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C6FE7861F4F619B1A7DA8DC288569774 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B83B51579572C75C17DA299F12BC1B8 /* Info.plist */,
+				C15923788E1CAB3F87491924A43DA2ED /* madgwick-fusion-swift.modulemap */,
+				B1997355753A007344244F7BF8D88AA7 /* madgwick-fusion-swift.xcconfig */,
+				90FD53A4A61D8379836F060E1E845997 /* madgwick-fusion-swift-dummy.m */,
+				0CEABC5144FEFA228CF6B458A16FD8BC /* madgwick-fusion-swift-prefix.pch */,
+				CD6D504A70513919C93112F2FF2CD325 /* madgwick-fusion-swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/madgwick-fusion-swift";
+			sourceTree = "<group>";
+		};
+		CC1C2277F05DA44E30321291CF66D515 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C049B393737AE47A28DA4C94C40733CA /* Pods-madgwick-fusion-swift_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EF8C84D7ED081B71AE80FE84A2515E02 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C46651A04C3C61367B0DF37BD16332EF /* madgwick-fusion-swift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E6A383D06666FBB8F484C0ED374F20C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B124FB280E27BD3D14C64CE3545434 /* madgwick-fusion-swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F240D1AC3C4E1B69AFE9E3898CCB4D43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9363732AB89AB9A250B3A01727DEE37 /* Pods-madgwick-fusion-swift_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E5C7DEA856D489B81F219D66414AC90 /* Pods-madgwick-fusion-swift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9407EE7CD4FF08B93DAD8E29B3C0B86E /* Build configuration list for PBXNativeTarget "Pods-madgwick-fusion-swift_Tests" */;
+			buildPhases = (
+				40508FABE01E82E447A2A3DAD06CF605 /* Sources */,
+				7640B123E353CD25AEBC869B08074782 /* Frameworks */,
+				F240D1AC3C4E1B69AFE9E3898CCB4D43 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D93628A4EF11B4C568F5AF11D57638E /* PBXTargetDependency */,
+			);
+			name = "Pods-madgwick-fusion-swift_Tests";
+			productName = "Pods-madgwick-fusion-swift_Tests";
+			productReference = F20C2C487B27E9C6631E29B483DFA21A /* Pods_madgwick_fusion_swift_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7490D3211A3A5077B1AA03024A840AD6 /* madgwick-fusion-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 004D92541263B43E31C0A47FC1FF19AC /* Build configuration list for PBXNativeTarget "madgwick-fusion-swift" */;
+			buildPhases = (
+				514450CB41DA49BC2229B4FD0EFB1E01 /* Sources */,
+				E216272229FE7057BC6D3E16F717BF1B /* Frameworks */,
+				3E6A383D06666FBB8F484C0ED374F20C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "madgwick-fusion-swift";
+			productName = "madgwick-fusion-swift";
+			productReference = 383814FD9C0DC9FE310A70C69B721BE3 /* madgwick_fusion_swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 185D60D875DBAE91396D11994BA012E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7490D3211A3A5077B1AA03024A840AD6 /* madgwick-fusion-swift */,
+				0E5C7DEA856D489B81F219D66414AC90 /* Pods-madgwick-fusion-swift_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40508FABE01E82E447A2A3DAD06CF605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2CEB5E76FA2E375BAB120E3FC4887A5 /* Pods-madgwick-fusion-swift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		514450CB41DA49BC2229B4FD0EFB1E01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AF32384E3C8B14B9D02E688BC5D66C /* madgwick-fusion-swift-dummy.m in Sources */,
+				CA2D74F7A2257F2F03C55F8BEB5B1C3A /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D93628A4EF11B4C568F5AF11D57638E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "madgwick-fusion-swift";
+			target = 7490D3211A3A5077B1AA03024A840AD6 /* madgwick-fusion-swift */;
+			targetProxy = DE253ECD5ECB7DBF81F2F7FF0B6C7FDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01ACAF68940B8FE377F8ECCB51660465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1997355753A007344244F7BF8D88AA7 /* madgwick-fusion-swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/madgwick-fusion-swift/madgwick-fusion-swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/madgwick-fusion-swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/madgwick-fusion-swift/madgwick-fusion-swift.modulemap";
+				PRODUCT_NAME = madgwick_fusion_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		211A89893A9CD75F1F191808C608694C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC6AFE6641275D3F9F14D24E6F01AC98 /* Pods-madgwick-fusion-swift_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-madgwick-fusion-swift_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-madgwick-fusion-swift_Tests/Pods-madgwick-fusion-swift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_madgwick_fusion_swift_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3A153E295904895D164DFB309F517B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1997355753A007344244F7BF8D88AA7 /* madgwick-fusion-swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/madgwick-fusion-swift/madgwick-fusion-swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/madgwick-fusion-swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/madgwick-fusion-swift/madgwick-fusion-swift.modulemap";
+				PRODUCT_NAME = madgwick_fusion_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42D1FD10E090BDCCFF97EAD1ACCE7B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6026FBB9782A9CE5CEEAE07804F8F1A /* Pods-madgwick-fusion-swift_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-madgwick-fusion-swift_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-madgwick-fusion-swift_Tests/Pods-madgwick-fusion-swift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_madgwick_fusion_swift_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		004D92541263B43E31C0A47FC1FF19AC /* Build configuration list for PBXNativeTarget "madgwick-fusion-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A153E295904895D164DFB309F517B65 /* Debug */,
+				01ACAF68940B8FE377F8ECCB51660465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9407EE7CD4FF08B93DAD8E29B3C0B86E /* Build configuration list for PBXNativeTarget "Pods-madgwick-fusion-swift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211A89893A9CD75F1F191808C608694C /* Debug */,
+				42D1FD10E090BDCCFF97EAD1ACCE7B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "madgwick-fusion-swift",
+  "version": "0.1.0",
+  "summary": "A short description of madgwick-fusion-swift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lachtan1/madgwick-fusion-swift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lachtan1": "leitgeb.a@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/lachtan1/madgwick-fusion-swift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "madgwick-fusion-swift/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - madgwick-fusion-swift (0.1.0)
+
+DEPENDENCIES:
+  - madgwick-fusion-swift (from `../`)
+
+EXTERNAL SOURCES:
+  madgwick-fusion-swift:
+    :path: ../
+
+SPEC CHECKSUMS:
+  madgwick-fusion-swift: e561c34123f3ae5190161f8bd2e8811e3f25d650
+
+PODFILE CHECKSUM: a3bf25fecb59efdce3cda046e4ca687daafe0aa6
+
+COCOAPODS: 1.3.1
