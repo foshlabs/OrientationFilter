@@ -1,4 +1,4 @@
-# madgwick-fusion-swift
+# Orientation Filter
 
 The following code is an implementation of the orientation filter for a MARG sensor array including magnetic distortion and gyroscope drift compensation, in Swift. 
 
