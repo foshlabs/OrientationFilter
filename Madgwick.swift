@@ -1,6 +1,6 @@
 import Foundation
 
-public final class Madgwick {
+public final class Filter {
 
     // MARK: System constants
 
@@ -38,7 +38,7 @@ public final class Madgwick {
 
     // MARK: - Methods
 
-    /// Method to compute one filter iteration
+    /// method to compute one filter iteration
     ///
     /// - Parameters:
     ///   - w_x: gyroscope x value in rad/s
@@ -219,7 +219,7 @@ public final class Madgwick {
         // compute the gradient (matrix multiplication)
 
         // following expression solves following compiler warning:
-        //  Expression was too complex to be solved in reasonable time; consider breaking up the expression into distinct sub-expressions
+        //  expression was too complex to be solved in reasonable time; consider breaking up the expression into distinct sub-expressions
 
         SEqHatDot_1 = J_14or21 * f_2
         SEqHatDot_1 -= J_11or24 * f_1
