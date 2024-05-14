@@ -14,10 +14,10 @@ public final class Filter {
     private static let gyroMassDrift = 3.14159265358979 * (2 / 180)
 
     // compute beta
-    private let beta = sqrt(3.0 / 4.0) * Madgwick.gyroMassError
+    private let beta = sqrt(3.0 / 4.0) * Filter.gyroMassError
 
     // compute zeta
-    private let zeta = sqrt(3.0 / 4.0) * Madgwick.gyroMassDrift
+    private let zeta = sqrt(3.0 / 4.0) * Filter.gyroMassDrift
 
     // MARK: Global system variables
 
@@ -57,7 +57,7 @@ public final class Filter {
         var mutable_w_z: Double = w_z
 
         var mutable_a_x: Double = a_x
-        var mutable_a_y: Double = a_z
+        var mutable_a_y: Double = a_y
         var mutable_a_z: Double = a_z
 
         var mutable_m_x: Double = m_x
@@ -166,16 +166,20 @@ public final class Filter {
         // normalise the accelerometer measurement
 
         norm = sqrt(a_x * a_x + a_y * a_y + a_z * a_z)
-        mutable_a_x /= norm
-        mutable_a_y /= norm
-        mutable_a_z /= norm
+        if norm > 0 {
+            mutable_a_x /= norm
+            mutable_a_y /= norm
+            mutable_a_z /= norm
+        }
 
         // normalise the magnetometer measurement
 
         norm = sqrt(m_x * m_x + m_y * m_y + m_z * m_z)
-        mutable_m_x /= norm
-        mutable_m_y /= norm
-        mutable_m_z /= norm
+        if norm > 0 {
+            mutable_m_x /= norm
+            mutable_m_y /= norm
+            mutable_m_z /= norm
+        }
 
         // compute the objective function and Jacobian
 
